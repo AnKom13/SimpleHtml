@@ -1,0 +1,35 @@
+.header{
+    padding: 5% 5%;
+    background-color: #333; 
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation li {
+  display: table-cell;
+  font-size: 200%;
+  color: white;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navigation a li:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.logo-container{
+    width:auto;
+    display: table;
+    float: left;
+      color: white;
+}
+
+.bolt {
+    float:left; /* Выравниваем по левому краю */
+    margin: 0px 10px 10px 0px; /* Настраиваем отступы вокруг картинки */
+}
